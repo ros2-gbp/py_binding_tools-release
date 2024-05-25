@@ -1,0 +1,12 @@
+Source: ros-humble-py-binding-tools
+Section: misc
+Priority: optional
+Maintainer: Robert Haschke <rhaschke@techfak.uni-bielefeld.de>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ament-cmake-pytest <!nocheck>, ros-humble-ament-cmake-python, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-geometry-msgs, ros-humble-pybind11-vendor, ros-humble-rclcpp, ros-humble-rclpy <!nocheck>, ros-humble-std-msgs <!nocheck>, ros-humble-ros-workspace
+Homepage: http://wiki.ros.org/py_binding_tools
+Standards-Version: 3.9.2
+
+Package: ros-humble-py-binding-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-geometry-msgs, ros-humble-pybind11-vendor, ros-humble-rclcpp, ros-humble-ros-workspace
+Description: Python binding tools for C++
