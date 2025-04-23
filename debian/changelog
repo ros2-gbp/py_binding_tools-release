@@ -1,0 +1,21 @@
+ros-kilted-py-binding-tools (2.0.1-2bookworm) bookworm; urgency=high
+
+  * rclcpp.init(None) will resort to sys.argv as with rclpy.init(None)
+  * Contributors: Robert Haschke
+
+ -- Robert Haschke <rhaschke@techfak.uni-bielefeld.de>  Fri, 12 Jul 2024 05:00:00 -0000
+
+ros-kilted-py-binding-tools (2.0.0-2bookworm) bookworm; urgency=high
+
+  * ROS2 migration
+  * Contributors: Robert Haschke
+
+ -- Robert Haschke <rhaschke@techfak.uni-bielefeld.de>  Sat, 25 May 2024 05:00:00 -0000
+
+ros-kilted-py-binding-tools (1.0.0-2bookworm) bookworm; urgency=high
+
+  * Initial release factored out from https://github.com/ros-planning/moveit/pull/2910
+
+ -- Robert Haschke <rhaschke@techfak.uni-bielefeld.de>  Tue, 05 Mar 2024 06:00:00 -0000
+
+
