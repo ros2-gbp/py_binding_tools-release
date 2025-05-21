@@ -1,3 +1,26 @@
+## py_binding_tools (kilted) - 2.0.2-1
+
+The packages in the `py_binding_tools` repository were released into the `kilted` distro by running `/usr/bin/bloom-release --ros-distro kilted py_binding_tools` on `Wed, 21 May 2025 12:00:30 -0000`
+
+The `py_binding_tools` package was released.
+
+Version of package(s) in repository `py_binding_tools`:
+
+- upstream repository: https://github.com/ros-planning/py_binding_tools.git
+- release repository: https://github.com/ros2-gbp/py_binding_tools-release.git
+- rosdistro version: `2.0.1-2`
+- old version: `2.0.1-2`
+- new version: `2.0.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.25.1`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## py_binding_tools (rolling) - 2.0.2-1
 
 The packages in the `py_binding_tools` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --ros-distro rolling py_binding_tools` on `Wed, 21 May 2025 11:49:38 -0000`
