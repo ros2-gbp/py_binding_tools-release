@@ -169,13 +169,15 @@ struct RosMsgTypeCaster
 template <typename T>
 struct type_caster<
     T, enable_if_t<
-           rosidl_generator_traits::is_message<T>::value || 
-           rosidl_generator_traits::is_service_request<T>::value || 
-           rosidl_generator_traits::is_service_response<T>::value || 
+           // clang-format off
+           rosidl_generator_traits::is_message<T>::value ||
+           rosidl_generator_traits::is_service_request<T>::value ||
+           rosidl_generator_traits::is_service_response<T>::value ||
            rosidl_generator_traits::is_action_goal<T>::value ||
-           rosidl_generator_traits::is_action_result<T>::value || 
-           rosidl_generator_traits::is_action_feedback<T>::value>>
-  : RosMsgTypeCaster<T>
+           rosidl_generator_traits::is_action_result<T>::value ||
+           rosidl_generator_traits::is_action_feedback<T>::value
+           // clang-format on
+           >> : RosMsgTypeCaster<T>
 {
 };
 
